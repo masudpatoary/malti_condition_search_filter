@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 </head>
+
 <body>
-    
+    <nav class="w-full  bg-teal-400 shadow-md">
+        <div class="mx-auto xs:w-full lg:w-3/4   " id="">
+            <div class="flex justify-between content-center py-4 w-auto xs:px-2">
+                <div class="py-1" id="">Brand</div>
+                <div class="w-full h-fit bg-teal-400 xs:absolute md:static top-[55px] xs:left-0 xs:px-5 md:justify-center md:flex "
+                    id="toggle_menu">
+                    <ul class="md:flex xs:grid gap-4 xs:"   >
+                        <a href="#" class="hover:bg-white active:bg-yellow-400 px-2 py-1 rounded w-fit">
+                            <li class="">Home</li>
+                        </a>
+                        <a href="#" class="hover:bg-white active:bg-yellow-400 px-2 py-1 rounded w-fit">
+                            <li class="">Products</li>
+                        </a>
+                        <a href="#" class="hover:bg-white active:bg-yellow-400 px-2 py-1 rounded w-fit">
+                            <li class="">About Us</li>
+                        </a>
+                        <a href="#" class="hover:bg-white active:bg-yellow-400 px-2 py-1 rounded w-fit">
+                            <li class="">Contact us</li>
+                        </a>
+                        <a href="#"
+                            class=" hover:bg-yellow-400  active:bg-yellow-500  bg-white xs:my-5 md:m-0 w-fit px-2 py-1 rounded shadow-sm">
+                            <li class="">Sign in</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="flex gap-2">
+                    <div class="" id="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" width="30px"
+                            height="30px">
+                            <path
+                                d="M10 19.5c0 .829-.672 1.5-1.5 1.5s-1.5-.671-1.5-1.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5zm9.804-16.5l-3.431 12h-2.102l2.542-9h-5.993c.113.482.18.983.18 1.5 0 3.59-2.91 6.5-6.5 6.5-.407 0-.805-.042-1.191-.114l1.306 3.114h13.239l3.474-12h1.929l.743-2h-4.196zm-6.304 15c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5c0-.828-.672-1.5-1.5-1.5zm-4.5-10.5c0 2.485-2.018 4.5-4.5 4.5-2.484 0-4.5-2.015-4.5-4.5s2.016-4.5 4.5-4.5c2.482 0 4.5 2.015 4.5 4.5zm-2-.5h-2v-2h-1v2h-2v1h2v2h1v-2h2v-1z" />
+                        </svg>
+                    </div>
+                    <div class="md:hidden xs:flex cursor-pointer justify-end w-8" id="toggle_menu_icon">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="28px"
+                            height="28px">
+                            <path
+                                d="m11 16.745c0-.414.336-.75.75-.75h9.5c.414 0 .75.336.75.75s-.336.75-.75.75h-9.5c-.414 0-.75-.336-.75-.75zm-9-5c0-.414.336-.75.75-.75h18.5c.414 0 .75.336.75.75s-.336.75-.75.75h-18.5c-.414 0-.75-.336-.75-.75zm4-5c0-.414.336-.75.75-.75h14.5c.414 0 .75.336.75.75s-.336.75-.75.75h-14.5c-.414 0-.75-.336-.75-.75z"
+                                fill-rule="nonzero" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <script src="./resources/js_files/productdb.js"></script>
+    <script src="./resources/js_files/script.js"></script>
+    <script src="./resources/js_files/tailwindTheme.js"></script>
 </body>
+
 </html>
